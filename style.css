@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #16113A;
+}
+
+.containers {
+    width: 47vw;
+    height: 47vh;
+    background-color: #272953;
+    margin-top: 2vh;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #E0E1E7;
+    /* margin: 10px 50px 20px 100px; */
+    /* margin-top: 100px; */
+}
+
+/* #sentry {
+    width: 48vw;
+    height: 48vh;
+    background-color: red;
+} */
+
+/* .sentry-container {
+    padding: 10px;
+    background-color: black;
+} */
+
+/* #sonarcloud {
+    width: 48vw;
+    height: 48vh;
+    background-color: yellow;
+} */
+
+/* #jenkins {
+    width: 48vw;
+    height: 48vh;
+    background-color: green;
+} */
+
+/* #service-status {
+    width: 48vw;
+    height: 48vh;
+    background-color: blue;
+} */
